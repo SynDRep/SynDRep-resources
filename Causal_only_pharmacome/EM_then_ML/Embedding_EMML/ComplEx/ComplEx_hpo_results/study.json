@@ -1,0 +1,13 @@
+{
+  "evaluator": "rankbased",
+  "filter_validation_when_testing": true,
+  "loss": "softplus",
+  "metric": "both.realistic.hits_at_10",
+  "model": "complex",
+  "negative_sampler": "basic",
+  "optimizer": "adagrad",
+  "pykeen_git_hash": "UNHASHED",
+  "pykeen_version": "1.10.2-dev",
+  "regularizer": "no",
+  "training_loop": "slcwa"
+}

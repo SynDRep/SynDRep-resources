@@ -1,0 +1,6 @@
+Total combinations: 36602 
+Total drugs in combinations: 619 
+Total drugs in pharmacome: 1692
+Total HAS_SYNERGISM_WITH combinations: 11060
+Total HAS_ANTAGONISM_WITH combinations: 25538
+Total HAS_ADDITIVE_EFFECT_WITH combinations: 4
