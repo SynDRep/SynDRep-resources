@@ -21,7 +21,7 @@ Each experiment folder contains the data and results of experiment.
 
 The tree structure looks like as given below,
 ```
-SynDRep_results
+SSynDRep_results
 ├── Causal_only_pharmacome
 │  ├── EM_only
 │  │  ├── Data_EM
@@ -57,14 +57,8 @@ SynDRep_results
 │  │     │  │  ├── study.json
 │  │     │  │  └── trials.tsv
 │  │     │  ├── CompGCN_model_results
-│  │     │  │  ├── training_triples
-│  │     │  │  │  ├── base.pth
-│  │     │  │  │  ├── entity_to_id.tsv.gz
-│  │     │  │  │  ├── numeric_triples.tsv.gz
-│  │     │  │  │  └── relation_to_id.tsv.gz
 │  │     │  │  ├── metadata.json
-│  │     │  │  ├── results.json
-│  │     │  │  └── trained_model.pkl
+│  │     │  │  └── results.json
 │  │     │  ├── CompGCN_config_hpo.json
 │  │     │  └── CompGCN_config_model.json
 │  │     ├── ComplEx
@@ -74,14 +68,8 @@ SynDRep_results
 │  │     │  │  ├── study.json
 │  │     │  │  └── trials.tsv
 │  │     │  ├── ComplEx_model_results
-│  │     │  │  ├── training_triples
-│  │     │  │  │  ├── base.pth
-│  │     │  │  │  ├── entity_to_id.tsv.gz
-│  │     │  │  │  ├── numeric_triples.tsv.gz
-│  │     │  │  │  └── relation_to_id.tsv.gz
 │  │     │  │  ├── metadata.json
-│  │     │  │  ├── results.json
-│  │     │  │  └── trained_model.pkl
+│  │     │  │  └── results.json
 │  │     │  ├── ComplEx_config_hpo.json
 │  │     │  └── ComplEx_config_model.json
 │  │     ├── HolE
@@ -91,14 +79,8 @@ SynDRep_results
 │  │     │  │  ├── study.json
 │  │     │  │  └── trials.tsv
 │  │     │  ├── HolE_model_results
-│  │     │  │  ├── training_triples
-│  │     │  │  │  ├── base.pth
-│  │     │  │  │  ├── entity_to_id.tsv.gz
-│  │     │  │  │  ├── numeric_triples.tsv.gz
-│  │     │  │  │  └── relation_to_id.tsv.gz
 │  │     │  │  ├── metadata.json
-│  │     │  │  ├── results.json
-│  │     │  │  └── trained_model.pkl
+│  │     │  │  └── results.json
 │  │     │  ├── HolE_config_hpo.json
 │  │     │  └── HolE_config_model.json
 │  │     ├── RotatE
@@ -108,14 +90,8 @@ SynDRep_results
 │  │     │  │  ├── study.json
 │  │     │  │  └── trials.tsv
 │  │     │  ├── RotatE_model_results
-│  │     │  │  ├── training_triples
-│  │     │  │  │  ├── base.pth
-│  │     │  │  │  ├── entity_to_id.tsv.gz
-│  │     │  │  │  ├── numeric_triples.tsv.gz
-│  │     │  │  │  └── relation_to_id.tsv.gz
 │  │     │  │  ├── metadata.json
-│  │     │  │  ├── results.json
-│  │     │  │  └── trained_model.pkl
+│  │     │  │  └── results.json
 │  │     │  ├── RotatE_config_hpo.json
 │  │     │  └── RotatE_config_model.json
 │  │     ├── TransE
@@ -125,14 +101,8 @@ SynDRep_results
 │  │     │  │  ├── study.json
 │  │     │  │  └── trials.tsv
 │  │     │  ├── TransE_model_results
-│  │     │  │  ├── training_triples
-│  │     │  │  │  ├── base.pth
-│  │     │  │  │  ├── entity_to_id.tsv.gz
-│  │     │  │  │  ├── numeric_triples.tsv.gz
-│  │     │  │  │  └── relation_to_id.tsv.gz
 │  │     │  │  ├── metadata.json
-│  │     │  │  ├── results.json
-│  │     │  │  └── trained_model.pkl
+│  │     │  │  └── results.json
 │  │     │  ├── TransE_config_hpo.json
 │  │     │  └── TransE_config_model.json
 │  │     ├── TransR
@@ -142,14 +112,8 @@ SynDRep_results
 │  │     │  │  ├── study.json
 │  │     │  │  └── trials.tsv
 │  │     │  ├── TransR_model_results
-│  │     │  │  ├── training_triples
-│  │     │  │  │  ├── base.pth
-│  │     │  │  │  ├── entity_to_id.tsv.gz
-│  │     │  │  │  ├── numeric_triples.tsv.gz
-│  │     │  │  │  └── relation_to_id.tsv.gz
 │  │     │  │  ├── metadata.json
-│  │     │  │  ├── results.json
-│  │     │  │  └── trained_model.pkl
+│  │     │  │  └── results.json
 │  │     │  ├── TransR_config_hpo.json
 │  │     │  └── TransR_config_model.json
 │  │     ├── Model_summary_EM.csv
@@ -188,14 +152,8 @@ SynDRep_results
 │     │  │  │  ├── study.json
 │     │  │  │  └── trials.tsv
 │     │  │  ├── CompGCN_model_results
-│     │  │  │  ├── training_triples
-│     │  │  │  │  ├── base.pth
-│     │  │  │  │  ├── entity_to_id.tsv.gz
-│     │  │  │  │  ├── numeric_triples.tsv.gz
-│     │  │  │  │  └── relation_to_id.tsv.gz
 │     │  │  │  ├── metadata.json
-│     │  │  │  ├── results.json
-│     │  │  │  └── trained_model.pkl
+│     │  │  │  └── results.json
 │     │  │  ├── CompGCN_config_hpo.json
 │     │  │  └── CompGCN_config_model.json
 │     │  ├── ComplEx
@@ -205,14 +163,8 @@ SynDRep_results
 │     │  │  │  ├── study.json
 │     │  │  │  └── trials.tsv
 │     │  │  ├── ComplEx_model_results
-│     │  │  │  ├── training_triples
-│     │  │  │  │  ├── base.pth
-│     │  │  │  │  ├── entity_to_id.tsv.gz
-│     │  │  │  │  ├── numeric_triples.tsv.gz
-│     │  │  │  │  └── relation_to_id.tsv.gz
 │     │  │  │  ├── metadata.json
-│     │  │  │  ├── results.json
-│     │  │  │  └── trained_model.pkl
+│     │  │  │  └── results.json
 │     │  │  ├── ComplEx_config_hpo.json
 │     │  │  └── ComplEx_config_model.json
 │     │  ├── HolE
@@ -222,16 +174,8 @@ SynDRep_results
 │     │  │  │  ├── study.json
 │     │  │  │  └── trials.tsv
 │     │  │  ├── HolE_model_results
-│     │  │  │  ├── training_triples
-│     │  │  │  │  ├── base.pth
-│     │  │  │  │  ├── entity_to_id.tsv.gz
-│     │  │  │  │  ├── numeric_triples.tsv.gz
-│     │  │  │  │  └── relation_to_id.tsv.gz
 │     │  │  │  ├── metadata.json
-│     │  │  │  ├── results.json
-│     │  │  │  └── trained_model.pkl
-│     │  │  ├── HolE_Embeddings_all.csv
-│     │  │  ├── HolE_Embeddings_drugs.csv
+│     │  │  │  └── results.json
 │     │  │  ├── HolE_config_hpo.json
 │     │  │  └── HolE_config_model.json
 │     │  ├── RotatE
@@ -241,14 +185,8 @@ SynDRep_results
 │     │  │  │  ├── study.json
 │     │  │  │  └── trials.tsv
 │     │  │  ├── RotatE_model_results
-│     │  │  │  ├── training_triples
-│     │  │  │  │  ├── base.pth
-│     │  │  │  │  ├── entity_to_id.tsv.gz
-│     │  │  │  │  ├── numeric_triples.tsv.gz
-│     │  │  │  │  └── relation_to_id.tsv.gz
 │     │  │  │  ├── metadata.json
-│     │  │  │  ├── results.json
-│     │  │  │  └── trained_model.pkl
+│     │  │  │  └── results.json
 │     │  │  ├── RotatE_config_hpo.json
 │     │  │  └── RotatE_config_model.json
 │     │  ├── TransE
@@ -258,14 +196,8 @@ SynDRep_results
 │     │  │  │  ├── study.json
 │     │  │  │  └── trials.tsv
 │     │  │  ├── TransE_model_results
-│     │  │  │  ├── training_triples
-│     │  │  │  │  ├── base.pth
-│     │  │  │  │  ├── entity_to_id.tsv.gz
-│     │  │  │  │  ├── numeric_triples.tsv.gz
-│     │  │  │  │  └── relation_to_id.tsv.gz
 │     │  │  │  ├── metadata.json
-│     │  │  │  ├── results.json
-│     │  │  │  └── trained_model.pkl
+│     │  │  │  └── results.json
 │     │  │  ├── TransE_config_hpo.json
 │     │  │  └── TransE_config_model.json
 │     │  ├── TransR
@@ -275,14 +207,8 @@ SynDRep_results
 │     │  │  │  ├── study.json
 │     │  │  │  └── trials.tsv
 │     │  │  ├── TransR_model_results
-│     │  │  │  ├── training_triples
-│     │  │  │  │  ├── base.pth
-│     │  │  │  │  ├── entity_to_id.tsv.gz
-│     │  │  │  │  ├── numeric_triples.tsv.gz
-│     │  │  │  │  └── relation_to_id.tsv.gz
 │     │  │  │  ├── metadata.json
-│     │  │  │  ├── results.json
-│     │  │  │  └── trained_model.pkl
+│     │  │  │  └── results.json
 │     │  │  ├── TransR_config_hpo.json
 │     │  │  └── TransR_config_model.json
 │     │  ├── Model_summary_EMML.csv
@@ -302,11 +228,33 @@ SynDRep_results
 │        │  └── cross_validation_results.json
 │        ├── svm
 │        │  └── cross_validation_results.json
-│        ├── ROC-AUC.png
-│        ├── antagonism_pred_EMML.csv
-│        ├── synergy_pred_EMML.csv
-│        └── train_test_data.csv
+│        └── ROC-AUC.png
 └── Human_Brain_Pharmacome
+   ├── Data
+   │  ├── CSV
+   │  │  ├── drug_combos_not_ph.csv
+   │  │  ├── drug_combos_ph.csv
+   │  │  ├── drugs.csv
+   │  │  ├── final_combos.csv
+   │  │  └── has_combination_with_CYPHER.csv
+   │  ├── JSON
+   │  │  └── cid_name_dict.json
+   │  ├── TSV
+   │  │  ├── new_training_splits
+   │  │  │  ├── test_data_ns.tsv
+   │  │  │  ├── train_data_ns.tsv
+   │  │  │  └── validation_data_ns.tsv
+   │  │  ├── pharmacome.tsv
+   │  │  ├── pharmacome_names.tsv
+   │  │  ├── test_data.tsv
+   │  │  ├── testval_all.tsv
+   │  │  ├── testval_d.tsv
+   │  │  ├── testval_d_p.tsv
+   │  │  ├── train_data.tsv
+   │  │  └── validation_data.tsv
+   │  └── TXT
+   │     ├── final_results.txt
+   │     └── results.txt
    ├── Embedding
    │  ├── CompGCN
    │  │  ├── CompGCN_hpo_results
@@ -323,41 +271,10 @@ SynDRep_results
    │  │  │  ├── study.json
    │  │  │  └── trials.tsv
    │  │  ├── ComplEx_model_results
-   │  │  │  ├── training_triples
-   │  │  │  │  ├── base.pth
-   │  │  │  │  ├── entity_to_id.tsv.gz
-   │  │  │  │  ├── numeric_triples.tsv.gz
-   │  │  │  │  └── relation_to_id.tsv.gz
    │  │  │  ├── metadata.json
-   │  │  │  ├── results.json
-   │  │  │  └── trained_model.pkl
+   │  │  │  └── results.json
    │  │  ├── ComplEx_config_hpo.json
    │  │  └── ComplEx_config_model.json
-   │  ├── Data
-   │  │  ├── CSV
-   │  │  │  ├── drug_combos_not_ph.csv
-   │  │  │  ├── drug_combos_ph.csv
-   │  │  │  ├── drugs.csv
-   │  │  │  ├── final_combos.csv
-   │  │  │  └── has_combination_with_CYPHER.csv
-   │  │  ├── JSON
-   │  │  │  └── cid_name_dict.json
-   │  │  ├── TSV
-   │  │  │  ├── new_training_splits
-   │  │  │  │  ├── test_data_ns.tsv
-   │  │  │  │  ├── train_data_ns.tsv
-   │  │  │  │  └── validation_data_ns.tsv
-   │  │  │  ├── pharmacome.tsv
-   │  │  │  ├── pharmacome_names.tsv
-   │  │  │  ├── test_data.tsv
-   │  │  │  ├── testval_all.tsv
-   │  │  │  ├── testval_d.tsv
-   │  │  │  ├── testval_d_p.tsv
-   │  │  │  ├── train_data.tsv
-   │  │  │  └── validation_data.tsv
-   │  │  └── TXT
-   │  │     ├── final_results.txt
-   │  │     └── results.txt
    │  ├── HolE
    │  │  ├── HolE_hpo_results
    │  │  │  ├── best_pipeline
@@ -365,14 +282,8 @@ SynDRep_results
    │  │  │  ├── study.json
    │  │  │  └── trials.tsv
    │  │  ├── HolE_model_results
-   │  │  │  ├── training_triples
-   │  │  │  │  ├── base.pth
-   │  │  │  │  ├── entity_to_id.tsv.gz
-   │  │  │  │  ├── numeric_triples.tsv.gz
-   │  │  │  │  └── relation_to_id.tsv.gz
    │  │  │  ├── metadata.json
-   │  │  │  ├── results.json
-   │  │  │  └── trained_model.pkl
+   │  │  │  └── results.json
    │  │  ├── HolE_config_hpo.json
    │  │  └── HolE_config_model.json
    │  ├── RotatE
@@ -382,18 +293,10 @@ SynDRep_results
    │  │  │  ├── study.json
    │  │  │  └── trials.tsv
    │  │  ├── RotatE_model_results
-   │  │  │  ├── training_triples
-   │  │  │  │  ├── base.pth
-   │  │  │  │  ├── entity_to_id.tsv.gz
-   │  │  │  │  ├── numeric_triples.tsv.gz
-   │  │  │  │  └── relation_to_id.tsv.gz
    │  │  │  ├── metadata.json
-   │  │  │  ├── results.json
-   │  │  │  └── trained_model.pkl
+   │  │  │  └── results.json
    │  │  ├── RotatE_config_hpo.json
-   │  │  ├── RotatE_config_model.json
-   │  │  ├── antagonism_pred.csv
-   │  │  └── synergy_pred.csv
+   │  │  └── RotatE_config_model.json
    │  ├── TransE
    │  │  ├── TransE_hpo_results
    │  │  │  ├── best_pipeline
@@ -401,14 +304,8 @@ SynDRep_results
    │  │  │  ├── study.json
    │  │  │  └── trials.tsv
    │  │  ├── TransE_model_results
-   │  │  │  ├── training_triples
-   │  │  │  │  ├── base.pth
-   │  │  │  │  ├── entity_to_id.tsv.gz
-   │  │  │  │  ├── numeric_triples.tsv.gz
-   │  │  │  │  └── relation_to_id.tsv.gz
    │  │  │  ├── metadata.json
-   │  │  │  ├── results.json
-   │  │  │  └── trained_model.pkl
+   │  │  │  └── results.json
    │  │  ├── TransE_config_hpo.json
    │  │  └── TransE_config_model.json
    │  ├── TransR
@@ -418,14 +315,8 @@ SynDRep_results
    │  │  │  ├── study.json
    │  │  │  └── trials.tsv
    │  │  ├── TransR_model_results
-   │  │  │  ├── training_triples
-   │  │  │  │  ├── base.pth
-   │  │  │  │  ├── entity_to_id.tsv.gz
-   │  │  │  │  ├── numeric_triples.tsv.gz
-   │  │  │  │  └── relation_to_id.tsv.gz
    │  │  │  ├── metadata.json
-   │  │  │  ├── results.json
-   │  │  │  └── trained_model.pkl
+   │  │  │  └── results.json
    │  │  ├── TransR_config_hpo.json
    │  │  └── TransR_config_model.json
    │  ├── Model_summary.csv
@@ -441,12 +332,9 @@ SynDRep_results
       │  └── cross_validation_results.json
       ├── random_forest
       │  └── cross_validation_results.json
-      ├── Antagonism_pred_ML.csv
       ├── ROC-AUC.png
       ├── cid_name_dict.json
-      ├── cid_properties_dic.json
-      ├── final_dataset_detailed.csv
-      └── synergy_pred_ML.csv
+      └── cid_properties_dic.json
 
 ```
 
