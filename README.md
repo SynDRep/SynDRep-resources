@@ -5,7 +5,7 @@ Datasets currently used in this repo is the Human brain pharmacome and a modifie
 
 Data Availability
 ------------------
-The data in this repository were collected from open source databases, thereby there is no restriction on its reusal to reproduce the results
+The data in this repository were collected from open source databases, thereby there is no restriction on its reusal to reproduce the results.
 
 Repository Structure
 ---------------------
