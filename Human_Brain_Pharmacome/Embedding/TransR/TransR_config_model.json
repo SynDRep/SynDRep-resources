@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "_stopper_comment": "While the original config had 1000, early stopping will now switch it to 325",
+        "_stopper_kwargs_removed_comment": "stopper_kwargs config removed after HPO: {'frequency': 25, 'patience': 2, 'relative_delta': 0.002}",
+        "best_trial_evaluation": 0.0034212387171914647,
+        "best_trial_number": 12,
+        "git_hash": "UNHASHED",
+        "version": "1.10.2-dev"
+    },
+    "pipeline": {
+        "evaluation_kwargs": {
+            "batch_size": null
+        },
+        "evaluator": "rankbased",
+        "evaluator_kwargs": {
+            "automatic_memory_optimization": true,
+            "filtered": true
+        },
+        "filter_validation_when_testing": true,
+        "loss": "marginranking",
+        "loss_kwargs": {
+            "margin": 0.5
+        },
+        "model": "transr",
+        "model_kwargs": {
+            "embedding_dim": 32,
+            "relation_dim": 224,
+            "scoring_fct_norm": 1
+        },
+        "negative_sampler": "basic",
+        "negative_sampler_kwargs": {
+            "num_negs_per_pos": 8
+        },
+        "optimizer": "sgd",
+        "optimizer_kwargs": {
+            "lr": 0.5685002243305529,
+            "weight_decay": 0.0
+        },
+        "training_kwargs": {
+            "batch_size": 2048,
+            "label_smoothing": 0.0,
+            "num_epochs": 325
+        },
+        "training_loop": "slcwa",
+        "training_loop_kwargs": {
+            "automatic_memory_optimization": true
+        }
+    }
+}

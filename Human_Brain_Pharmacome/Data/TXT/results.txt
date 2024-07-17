@@ -1,0 +1,5 @@
+Total combinations: 60890 
+Total drugs in combinations: 3862 
+Total drugs in pharmacome: 5159
+Total combinations in pharmacome: 23171
+Total drugs have combinations in pharmacome: 882
